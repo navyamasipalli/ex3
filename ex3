@@ -1,0 +1,70 @@
+1. Data Types – Student Details
+Question: Write a Python program to store student details using different data types and display them.
+name = "Navya"age = 20marks = 85.5is_pass = Trueprint("Name:", name)print("Age:", age)print("Marks:", marks)print("Pass:", is_pass)print(type(name))print(type(age))print(type(marks))print(type(is_pass))
+
+
+
+Concept: String, Integer, Float, Boolean.
+2. Data Types – Simple Calculator
+Question: Perform addition, subtraction, multiplication and division.
+a = 20b = 10print("Addition:", a + b)print("Subtraction:", a - b)print("Multiplication:", a * b)print("Division:", a / b)
+
+
+
+Concept: Integer, Arithmetic Operators.
+3. Conditional Statements – Even or Odd
+Question: Write a program to check whether a number is even or odd.
+num = int(input("Enter a number: "))if num % 2 == 0:    print("Even Number")else:    print("Odd Number")
+
+
+
+Concept: if-else, Modulus operator.
+4. Conditional Statements – Positive, Negative or Zero
+Question: Check whether a number is positive, negative or zero.
+num = int(input("Enter a number: "))if num > 0:    print("Positive")elif num < 0:    print("Negative")else:    print("Zero")
+
+
+
+Concept: if, elif, else.
+5. Conditional Statements – Student Grade
+Question: Display the grade based on student marks.
+marks = int(input("Enter marks: "))if marks >= 90:    print("Grade A")elif marks >= 75:    print("Grade B")elif marks >= 60:    print("Grade C")elif marks >= 35:    print("Pass")else:    print("Fail")
+
+
+
+Concept: Multiple conditions.
+6. Looping – Print Numbers
+Question: Print numbers from 1 to 10 using a loop.
+for i in range(1, 11):    print(i)
+
+
+
+Concept: For loop, range().
+7. Looping – Multiplication Table
+Question: Print the multiplication table of a given number.
+num = int(input("Enter number: "))for i in range(1, 11):    print(num, "x", i, "=", num * i)
+
+
+
+Concept: For loop, multiplication.
+8. Looping – Factorial
+Question: Find the factorial of a number.
+num = int(input("Enter number: "))fact = 1for i in range(1, num + 1):    fact = fact * iprint("Factorial:", fact)
+
+
+
+Concept: For loop, multiplication.
+9. Functions – Addition of Two Numbers
+Question: Create a function to add two numbers.
+def add(a, b):    return a + bx = int(input("Enter first number: "))y = int(input("Enter second number: "))result = add(x, y)print("Addition:", result)
+
+
+
+Concept: Function, parameters, return.
+10. Functions + Conditions – Voting Eligibility
+Question: Create a function to check whether a person is eligible to vote.
+def voting(age):    if age >= 18:        return "Eligible to vote"    else:        return "Not eligible to vote"age = int(input("Enter your age: "))print(voting(age))
+
+
+
+Concept: Functions + if
